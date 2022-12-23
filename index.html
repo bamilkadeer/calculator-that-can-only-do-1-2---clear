@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pretty calculator</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="container">
-
-<div class="screen"> 
-    <div class="previousNumber"></div> 
-    <div class="number"></div> 
-
-
-</div>
 
 
 
-        <button data-clear class="clear">clear</button>
-<button data-number class="one">1</button>
-<button data-number class="two">2</button>
 
-<button data-number class="nine">9</button>
-<button data-number class="six">6</button>
-<button data-number class="three">3</button>
-<button data-number class="seven">7</button>
-<button data-number class="four">4</button>
-<button data-number class="five">5</button>
-<button data-number class="eight">8</button>
-<button data-number class="zero">0</button>
 
+
+    <div  class="pretty grit"></div>
+    <div  class="ugly grit"></div>
+    <div  class="ugly2 grit"></div>
+    <div class="delete"></div>
+    <div class="corner grit"></div>
+
+    <div class="hehe grit"></div>
+    <div class="line grit"></div>
     
 
+     <div class ="container">
+        <div class="screen grit">
 
-        <button data-symbol class="plus">+</button>
-        <button data-symbol class="minus">-</button>
-        <button data-symbol class="multiply">x</button>
-        <button data-symbol class="division">÷</button>
-        <button data-equals class="equals">=</button>
+            <div data-screen class="previousNumber"></div> 
+            <div data-screen class="number"></div> 
 
-</div>
-    <script src="script.js"></script>
+
+        </div>
+        <button  data-clear class="clear">Clear</button>
+            <button data-symbol>÷</button>
+        <button  data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+            <button data-symbol>x</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+            <button data-symbol>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+            <button data-symbol>-</button>
+        <button  data-number class="zero">0</button>
+        
+      
+       
+  
+        <button data-equals data-symbol class="equals">=</button>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+     <script src="script.js"></script>
 
 </body>
 </html>

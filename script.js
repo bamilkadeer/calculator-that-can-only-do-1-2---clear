@@ -22,7 +22,7 @@ number.forEach(function(button) {
     {
      
      screen.innerText = buffer;
-     screen.style.color = 'black';
+    
      lastchar = button.innerText.toString();
      buffer = buffer.toString() + button.innerText.toString();
      bufferbuffer = bufferbuffer.toString() + button.innerText.toString();
@@ -37,7 +37,7 @@ clear.forEach(function(button) {
     {
      counter = 0;
      preNumber.innerText = '';
-     screen.style.color = 'green';
+    
      buffer = '';
      bufferbuffer = '';
      screen.innerText = buffer;
@@ -55,7 +55,7 @@ symbol.forEach(function(button) {
        else{
             lastSymbol = button.innerText.toString();
             counter++;
-            screen.style.color = 'green';
+           
             buffer = buffer.toString() + button.innerText.toString();
 
             bufferbuffer = bufferbuffer.toString() + button.innerText.toString();
@@ -85,7 +85,7 @@ equals.forEach(function(button){
 
     console.log (parseInt(bufferbuffer));
     firstInput = parseInt(bufferbuffer);
-    screen.style.color = 'red';
+
 
 
 
