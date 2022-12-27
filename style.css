@@ -8,7 +8,7 @@ font-size: larger;
 body{
 
 background: #cd9e98;
-
+overflow: hidden;
 
 }
 
@@ -83,6 +83,7 @@ margin: 5px;
 cursor: pointer;
 transition-timing-function: ease;
 transition-duration: 70ms;
+    touch-action: manipulation;
 }
 
 
