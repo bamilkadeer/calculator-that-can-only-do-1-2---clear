@@ -9,6 +9,7 @@ body{
 
 background: #cd9e98;
 overflow: hidden;
+    touch-action: none;
 
 }
 
